@@ -1,7 +1,7 @@
 /**
  * Admin JavaScript for Auto Product Import.
  *
- * @since      1.0.0
+ * @since      2.1.1
  * @package    Auto_Product_Import
  */
 
@@ -13,18 +13,18 @@
      */
     function init() {
         // Form submission handler
-        $('#auto-product-import-form').on('submit', function(e) {
+        $('#apm-import-form').on('submit', function(e) {
             e.preventDefault();
             
             const $form = $(this);
-            const $submitButton = $('#auto-product-import-submit');
+            const $submitButton = $('#apm-import-submit');
             const $spinner = $submitButton.next('.spinner');
-            const $message = $('#auto-product-import-message');
-            const $result = $('#auto-product-import-result');
-            const $resultContent = $('#auto-product-import-result-content');
+            const $message = $('#apm-import-message');
+            const $result = $('#apm-import-result');
+            const $resultContent = $('#apm-import-result-content');
             
             // Get the URL
-            const url = $('#product-url').val();
+            const url = $('#apm-product-url').val();
             
             if (!url) {
                 showMessage('error', 'Please enter a valid URL.');
@@ -53,7 +53,7 @@
                         
                         // Display result
                         $resultContent.html(
-                            '<div class="import-success">' +
+                            '<div class="apm-import-success">' +
                             '<p><strong>Product imported successfully!</strong></p>' +
                             '<p>Product ID: ' + response.data.product_id + '</p>' +
                             '<p>' +
@@ -88,7 +88,7 @@
      * @param {string} message The message to display.
      */
     function showMessage(type, message) {
-        const $message = $('#auto-product-import-message');
+        const $message = $('#apm-import-message');
         $message.removeClass('updated error')
                 .addClass(type)
                 .html('<p>' + message + '</p>')
@@ -98,4 +98,4 @@
     // Initialize on document ready
     $(document).ready(init);
     
-})(jQuery); 
+})(jQuery);

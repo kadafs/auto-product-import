@@ -1,7 +1,7 @@
 /**
  * Frontend JavaScript for Auto Product Import.
  *
- * @since      1.0.0
+ * @since      2.1.1
  * @package    Auto_Product_Import
  */
 
@@ -13,18 +13,18 @@
      */
     function init() {
         // Form submission handler
-        $('#auto-product-import-frontend-form').on('submit', function(e) {
+        $('#apm-import-frontend-form').on('submit', function(e) {
             e.preventDefault();
             
             const $form = $(this);
-            const $submitButton = $('.auto-product-import-submit-button');
-            const $spinner = $('.auto-product-import-spinner');
-            const $message = $('#auto-product-import-frontend-message');
-            const $result = $('#auto-product-import-frontend-result');
-            const $resultContent = $('#auto-product-import-frontend-result-content');
+            const $submitButton = $('.apm-import-submit-button');
+            const $spinner = $('.apm-import-spinner');
+            const $message = $('#apm-import-frontend-message');
+            const $result = $('#apm-import-frontend-result');
+            const $resultContent = $('#apm-import-frontend-result-content');
             
             // Get the URL
-            const url = $('#auto-product-import-url').val();
+            const url = $('#apm-import-url').val();
             
             if (!url) {
                 showMessage('error', 'Please enter a valid URL.');
@@ -53,18 +53,18 @@
                         
                         // Display result
                         $resultContent.html(
-                            '<div class="import-success">' +
+                            '<div class="apm-import-success">' +
                             '<p><strong>Product imported successfully!</strong></p>' +
                             '<p>Product ID: ' + response.data.product_id + '</p>' +
                             '<p>' +
-                            '<a href="' + response.data.view_link + '" class="auto-product-import-button" target="_blank">View Product</a>' +
+                            '<a href="' + response.data.view_link + '" class="apm-import-button" target="_blank">View Product</a>' +
                             '</p>' +
                             '</div>'
                         );
                         $result.show();
                         
                         // Clear the URL input
-                        $('#auto-product-import-url').val('');
+                        $('#apm-import-url').val('');
                     } else {
                         // Display error message
                         showMessage('error', response.data.message || 'An unknown error occurred.');
@@ -90,7 +90,7 @@
      * @param {string} message The message to display.
      */
     function showMessage(type, message) {
-        const $message = $('#auto-product-import-frontend-message');
+        const $message = $('#apm-import-frontend-message');
         $message.removeClass('success error')
                 .addClass(type)
                 .html('<p>' + message + '</p>')
@@ -100,4 +100,4 @@
     // Initialize on document ready
     $(document).ready(init);
     
-})(jQuery); 
+})(jQuery);
