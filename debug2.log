@@ -1,0 +1,312 @@
+[15-Mar-2026 04:48:06 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:06 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:48:06 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:48:06 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:48:06 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:48:06 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:48:06 UTC] APM: ===============================================
+[15-Mar-2026 04:48:06 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:48:06 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:06 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: HTML content length: 166963 bytes
+[15-Mar-2026 04:48:06 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:48:06 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:48:06 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:48:06 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:48:06 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:48:06 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:48:06 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:48:06 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:48:06 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:48:06 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:48:06 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:48:06 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:48:06 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:48:06 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:48:06 UTC] APM: ===============================================
+[15-Mar-2026 04:48:06 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:48:06 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:48:06 UTC] APM: Setting Auto Product Sync fields for product ID: 12717
+[15-Mar-2026 04:48:06 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:06 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:48:06 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:48:06 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:06 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:48:07 UTC] Quote Orders: WebP created successfully: qga25_main_1.webp
+[15-Mar-2026 04:48:07 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-3.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:07 UTC] Quote Orders: Original file deleted: qga25_main_1.png
+[15-Mar-2026 04:48:07 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:08 UTC] Quote Orders: WebP created successfully: qga25_main_4.webp
+[15-Mar-2026 04:48:08 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-2.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:08 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:48:08 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:08 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:08 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:48:08 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:48:08 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:48:08 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:48:08 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:48:08 UTC] APM: ===============================================
+[15-Mar-2026 04:48:08 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:48:08 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:08 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: HTML content length: 166963 bytes
+[15-Mar-2026 04:48:08 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:48:08 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:48:08 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:48:08 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:48:08 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:48:08 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:48:08 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:48:08 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:48:08 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:48:08 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:48:08 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:48:08 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:48:08 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:48:08 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:48:08 UTC] APM: ===============================================
+[15-Mar-2026 04:48:08 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:48:08 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:48:08 UTC] APM: Duplicate SKU detected (QGA25_Main) - Generated fallback SKU: API-5562
+[15-Mar-2026 04:48:08 UTC] APM: Setting Auto Product Sync fields for product ID: 12720
+[15-Mar-2026 04:48:08 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:48:08 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:48:08 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:48:08 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:48:08 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:48:09 UTC] Quote Orders: WebP created successfully: qga25_main_1-1.webp
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-4.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Original file deleted: qga25_main_1.png
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:09 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext.webp
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-3.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext.png
+[15-Mar-2026 04:48:09 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:10 UTC] Quote Orders: WebP created successfully: qga25_main_4-1.webp
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-3.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:10 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext.webp
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-3.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext.png
+[15-Mar-2026 04:48:10 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:11 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext-1.webp
+[15-Mar-2026 04:48:11 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-4.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:11 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext.png
+[15-Mar-2026 04:48:11 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:12 UTC] Quote Orders: WebP created successfully: qga25_main_in-use.webp
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Email JPG created successfully: qga25_main_in-use-2.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Original file deleted: qga25_main_in-use.png
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:12 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext-1.webp
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-4.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext.png
+[15-Mar-2026 04:48:12 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:14 UTC] Quote Orders: WebP created successfully: qga25_main_in-use-1.webp
+[15-Mar-2026 04:48:14 UTC] Quote Orders: Email JPG created successfully: qga25_main_in-use-3.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:48:14 UTC] Quote Orders: Original file deleted: qga25_main_in-use.png
+[15-Mar-2026 04:48:14 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:48:30 UTC] APM Import Queue: Sync complete. Added: 0, Removed: 0
+[15-Mar-2026 04:50:05 UTC] PHP Deprecated:  Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead. in /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php on line 6131
+[15-Mar-2026 04:50:05 UTC] PHP Stack trace:
+[15-Mar-2026 04:50:05 UTC] PHP   1. {main}() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:0
+[15-Mar-2026 04:50:05 UTC] PHP   2. WP_List_Table->display() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:503
+[15-Mar-2026 04:50:05 UTC] PHP   3. WP_List_Table->display_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1616
+[15-Mar-2026 04:50:05 UTC] PHP   4. WP_Posts_List_Table->extra_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1686
+[15-Mar-2026 04:50:05 UTC] PHP   5. do_action($hook_name = 'restrict_manage_posts', ...$arg = variadic('product', 'top')) /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-posts-list-table.php:593
+[15-Mar-2026 04:50:05 UTC] PHP   6. WP_Hook->do_action($args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/plugin.php:522
+[15-Mar-2026 04:50:05 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:365
+[15-Mar-2026 04:50:05 UTC] PHP   8. WooCommerce\Square\Handlers\Products->add_filter_products_synced_with_square_option($post_type = 'product') /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:343
+[15-Mar-2026 04:50:05 UTC] PHP   9. wc_enqueue_js($code = '\n\t\t\tjQuery( document ).ready( function( $ ) {\n\t\t\t\t$( \'select#dropdown_product_type\' ) . append( \'<option value="synced-with-square" \' + \'\' + \'>\' + \'Synced with Square\' + \'</option>\' );\n\t\t\t} );\n\t\t\t') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce-square/includes/Handlers/Products.php:250
+[15-Mar-2026 04:50:05 UTC] PHP  10. wc_deprecated_function($function = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:872
+[15-Mar-2026 04:50:05 UTC] PHP  11. _deprecated_function($function_name = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:58
+[15-Mar-2026 04:50:05 UTC] PHP  12. wp_trigger_error($function_name = '', $message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:5596
+[15-Mar-2026 04:50:05 UTC] PHP  13. trigger_error($message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:6131
+[15-Mar-2026 04:50:55 UTC] PHP Deprecated:  Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead. in /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php on line 6131
+[15-Mar-2026 04:50:55 UTC] PHP Stack trace:
+[15-Mar-2026 04:50:55 UTC] PHP   1. {main}() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:0
+[15-Mar-2026 04:50:55 UTC] PHP   2. WP_List_Table->display() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:503
+[15-Mar-2026 04:50:55 UTC] PHP   3. WP_List_Table->display_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1616
+[15-Mar-2026 04:50:55 UTC] PHP   4. WP_Posts_List_Table->extra_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1686
+[15-Mar-2026 04:50:55 UTC] PHP   5. do_action($hook_name = 'restrict_manage_posts', ...$arg = variadic('product', 'top')) /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-posts-list-table.php:593
+[15-Mar-2026 04:50:55 UTC] PHP   6. WP_Hook->do_action($args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/plugin.php:522
+[15-Mar-2026 04:50:55 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:365
+[15-Mar-2026 04:50:55 UTC] PHP   8. WooCommerce\Square\Handlers\Products->add_filter_products_synced_with_square_option($post_type = 'product') /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:343
+[15-Mar-2026 04:50:55 UTC] PHP   9. wc_enqueue_js($code = '\n\t\t\tjQuery( document ).ready( function( $ ) {\n\t\t\t\t$( \'select#dropdown_product_type\' ) . append( \'<option value="synced-with-square" \' + \'\' + \'>\' + \'Synced with Square\' + \'</option>\' );\n\t\t\t} );\n\t\t\t') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce-square/includes/Handlers/Products.php:250
+[15-Mar-2026 04:50:55 UTC] PHP  10. wc_deprecated_function($function = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:872
+[15-Mar-2026 04:50:55 UTC] PHP  11. _deprecated_function($function_name = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:58
+[15-Mar-2026 04:50:55 UTC] PHP  12. wp_trigger_error($function_name = '', $message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:5596
+[15-Mar-2026 04:50:55 UTC] PHP  13. trigger_error($message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:6131
+[15-Mar-2026 04:51:23 UTC] PHP Deprecated:  Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead. in /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php on line 6131
+[15-Mar-2026 04:51:23 UTC] PHP Stack trace:
+[15-Mar-2026 04:51:23 UTC] PHP   1. {main}() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:0
+[15-Mar-2026 04:51:23 UTC] PHP   2. WP_List_Table->display() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:503
+[15-Mar-2026 04:51:23 UTC] PHP   3. WP_List_Table->display_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1616
+[15-Mar-2026 04:51:23 UTC] PHP   4. WP_Posts_List_Table->extra_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1686
+[15-Mar-2026 04:51:23 UTC] PHP   5. do_action($hook_name = 'restrict_manage_posts', ...$arg = variadic('product', 'top')) /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-posts-list-table.php:593
+[15-Mar-2026 04:51:23 UTC] PHP   6. WP_Hook->do_action($args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/plugin.php:522
+[15-Mar-2026 04:51:23 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:365
+[15-Mar-2026 04:51:23 UTC] PHP   8. WooCommerce\Square\Handlers\Products->add_filter_products_synced_with_square_option($post_type = 'product') /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:343
+[15-Mar-2026 04:51:23 UTC] PHP   9. wc_enqueue_js($code = '\n\t\t\tjQuery( document ).ready( function( $ ) {\n\t\t\t\t$( \'select#dropdown_product_type\' ) . append( \'<option value="synced-with-square" \' + \'\' + \'>\' + \'Synced with Square\' + \'</option>\' );\n\t\t\t} );\n\t\t\t') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce-square/includes/Handlers/Products.php:250
+[15-Mar-2026 04:51:23 UTC] PHP  10. wc_deprecated_function($function = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:872
+[15-Mar-2026 04:51:23 UTC] PHP  11. _deprecated_function($function_name = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:58
+[15-Mar-2026 04:51:23 UTC] PHP  12. wp_trigger_error($function_name = '', $message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:5596
+[15-Mar-2026 04:51:23 UTC] PHP  13. trigger_error($message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:6131
+[15-Mar-2026 04:51:43 UTC] PHP Deprecated:  Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead. in /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php on line 6131
+[15-Mar-2026 04:51:43 UTC] PHP Stack trace:
+[15-Mar-2026 04:51:43 UTC] PHP   1. {main}() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:0
+[15-Mar-2026 04:51:43 UTC] PHP   2. WP_List_Table->display() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:503
+[15-Mar-2026 04:51:43 UTC] PHP   3. WP_List_Table->display_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1616
+[15-Mar-2026 04:51:43 UTC] PHP   4. WP_Posts_List_Table->extra_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1686
+[15-Mar-2026 04:51:43 UTC] PHP   5. do_action($hook_name = 'restrict_manage_posts', ...$arg = variadic('product', 'top')) /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-posts-list-table.php:593
+[15-Mar-2026 04:51:43 UTC] PHP   6. WP_Hook->do_action($args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/plugin.php:522
+[15-Mar-2026 04:51:43 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:365
+[15-Mar-2026 04:51:43 UTC] PHP   8. WooCommerce\Square\Handlers\Products->add_filter_products_synced_with_square_option($post_type = 'product') /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:343
+[15-Mar-2026 04:51:43 UTC] PHP   9. wc_enqueue_js($code = '\n\t\t\tjQuery( document ).ready( function( $ ) {\n\t\t\t\t$( \'select#dropdown_product_type\' ) . append( \'<option value="synced-with-square" \' + \'\' + \'>\' + \'Synced with Square\' + \'</option>\' );\n\t\t\t} );\n\t\t\t') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce-square/includes/Handlers/Products.php:250
+[15-Mar-2026 04:51:43 UTC] PHP  10. wc_deprecated_function($function = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:872
+[15-Mar-2026 04:51:43 UTC] PHP  11. _deprecated_function($function_name = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:58
+[15-Mar-2026 04:51:43 UTC] PHP  12. wp_trigger_error($function_name = '', $message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:5596
+[15-Mar-2026 04:51:43 UTC] PHP  13. trigger_error($message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:6131
+[15-Mar-2026 04:51:48 UTC] APM Import Queue: Sync complete. Added: 0, Removed: 0
+[15-Mar-2026 04:51:48 UTC] APM Import Queue: Removed deleted product (ID: 12720) from queue
+[15-Mar-2026 04:52:06 UTC] APM Import Queue: Sync complete. Added: 1, Removed: 0
+[15-Mar-2026 04:52:21 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:21 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:52:21 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:52:21 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:52:21 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:52:21 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:52:21 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:21 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:52:21 UTC] APM: ===============================================
+[15-Mar-2026 04:52:21 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:52:21 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:21 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:52:21 UTC] APM: HTML content length: 166962 bytes
+[15-Mar-2026 04:52:21 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:52:21 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:52:21 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:52:21 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:52:21 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:52:21 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:52:21 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:52:21 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:52:21 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:52:21 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:52:21 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:52:21 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:52:21 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:52:21 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:21 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:52:21 UTC] APM: ===============================================
+[15-Mar-2026 04:52:21 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:52:21 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:52:22 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:22 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:52:22 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:52:22 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:52:22 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:52:22 UTC] APM: ===============================================
+[15-Mar-2026 04:52:22 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:52:22 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:22 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: HTML content length: 166963 bytes
+[15-Mar-2026 04:52:22 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:52:22 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:52:22 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:52:22 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:52:22 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:52:22 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:52:22 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:52:22 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:52:22 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:52:22 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:52:22 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:52:22 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:52:22 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:52:22 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:52:22 UTC] APM: ===============================================
+[15-Mar-2026 04:52:22 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:52:22 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:52:22 UTC] APM: Setting Auto Product Sync fields for product ID: 12731
+[15-Mar-2026 04:52:22 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:52:22 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:52:22 UTC] APM: Setting Auto Product Sync fields for product ID: 12732
+[15-Mar-2026 04:52:22 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:52:22 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:52:22 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:52:22 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:52:22 UTC] Quote Orders: WebP created successfully: qga25_main_1.webp
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-5.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Original file deleted: qga25_main_1.png
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:22 UTC] Quote Orders: WebP created successfully: qga25_main_1-1.webp
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-6.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Original file deleted: qga25_main_1.png
+[15-Mar-2026 04:52:22 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:23 UTC] Quote Orders: WebP created successfully: qga25_main_4.webp
+[15-Mar-2026 04:52:23 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-4.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:23 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:52:23 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:24 UTC] Quote Orders: WebP created successfully: qga25_main_4-1.webp
+[15-Mar-2026 04:52:24 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-5.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:24 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:52:24 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:24 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext.webp
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-5.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext.png
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:25 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext-1.webp
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-6.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext.png
+[15-Mar-2026 04:52:25 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:26 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext.webp
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-5.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext.png
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:26 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext-1.webp
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-6.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext.png
+[15-Mar-2026 04:52:26 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:27 UTC] Quote Orders: WebP created successfully: qga25_main_in-use.webp
+[15-Mar-2026 04:52:27 UTC] Quote Orders: Email JPG created successfully: qga25_main_in-use-4.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:27 UTC] Quote Orders: Original file deleted: qga25_main_in-use.png
+[15-Mar-2026 04:52:27 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:28 UTC] Quote Orders: WebP created successfully: qga25_main_in-use-1.webp
+[15-Mar-2026 04:52:28 UTC] Quote Orders: Email JPG created successfully: qga25_main_in-use-5.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:52:28 UTC] Quote Orders: Original file deleted: qga25_main_in-use.png
+[15-Mar-2026 04:52:28 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:52:44 UTC] PHP Deprecated:  Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead. in /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php on line 6131
+[15-Mar-2026 04:52:44 UTC] PHP Stack trace:
+[15-Mar-2026 04:52:44 UTC] PHP   1. {main}() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:0
+[15-Mar-2026 04:52:44 UTC] PHP   2. WP_List_Table->display() /home/admin1/Local Sites/artinmetal/app/public/wp-admin/edit.php:503
+[15-Mar-2026 04:52:44 UTC] PHP   3. WP_List_Table->display_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1616
+[15-Mar-2026 04:52:44 UTC] PHP   4. WP_Posts_List_Table->extra_tablenav($which = 'top') /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-list-table.php:1686
+[15-Mar-2026 04:52:44 UTC] PHP   5. do_action($hook_name = 'restrict_manage_posts', ...$arg = variadic('product', 'top')) /home/admin1/Local Sites/artinmetal/app/public/wp-admin/includes/class-wp-posts-list-table.php:593
+[15-Mar-2026 04:52:44 UTC] PHP   6. WP_Hook->do_action($args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/plugin.php:522
+[15-Mar-2026 04:52:44 UTC] PHP   7. WP_Hook->apply_filters($value = '', $args = [0 => 'product', 1 => 'top']) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:365
+[15-Mar-2026 04:52:44 UTC] PHP   8. WooCommerce\Square\Handlers\Products->add_filter_products_synced_with_square_option($post_type = 'product') /home/admin1/Local Sites/artinmetal/app/public/wp-includes/class-wp-hook.php:343
+[15-Mar-2026 04:52:44 UTC] PHP   9. wc_enqueue_js($code = '\n\t\t\tjQuery( document ).ready( function( $ ) {\n\t\t\t\t$( \'select#dropdown_product_type\' ) . append( \'<option value="synced-with-square" \' + \'\' + \'>\' + \'Synced with Square\' + \'</option>\' );\n\t\t\t} );\n\t\t\t') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce-square/includes/Handlers/Products.php:250
+[15-Mar-2026 04:52:44 UTC] PHP  10. wc_deprecated_function($function = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php:872
+[15-Mar-2026 04:52:44 UTC] PHP  11. _deprecated_function($function_name = 'wc_enqueue_js', $version = '10.4.0', $replacement = 'wp_add_inline_script') /home/admin1/Local Sites/artinmetal/app/public/wp-content/plugins/woocommerce/includes/wc-deprecated-functions.php:58
+[15-Mar-2026 04:52:44 UTC] PHP  12. wp_trigger_error($function_name = '', $message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:5596
+[15-Mar-2026 04:52:44 UTC] PHP  13. trigger_error($message = 'Function wc_enqueue_js is <strong>deprecated</strong> since version 10.4.0! Use wp_add_inline_script instead.', $error_level = 16384) /home/admin1/Local Sites/artinmetal/app/public/wp-includes/functions.php:6131

@@ -1,0 +1,112 @@
+[15-Mar-2026 04:20:31 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:31 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:20:31 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:20:31 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:20:31 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:20:31 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:20:31 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:31 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:20:31 UTC] APM: ===============================================
+[15-Mar-2026 04:20:31 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:20:31 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:31 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:20:31 UTC] APM: HTML content length: 166963 bytes
+[15-Mar-2026 04:20:31 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:20:31 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:20:31 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:20:31 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:20:31 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:20:31 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:20:31 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:20:31 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:20:31 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:20:31 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:20:31 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:20:31 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:20:31 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:20:31 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:31 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:20:31 UTC] APM: ===============================================
+[15-Mar-2026 04:20:31 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:20:32 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:20:32 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:32 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: Detected domain: www.eastwesteng.com.au
+[15-Mar-2026 04:20:32 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[15-Mar-2026 04:20:32 UTC] APM: Looking for SKU in standard WooCommerce elements
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QGA25_Main
+[15-Mar-2026 04:20:32 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: Final SKU value: QGA25_Main
+[15-Mar-2026 04:20:32 UTC] APM: ===============================================
+[15-Mar-2026 04:20:32 UTC] APM: SKU extraction complete - SKU: QGA25_Main
+[15-Mar-2026 04:20:32 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:32 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: HTML content length: 166963 bytes
+[15-Mar-2026 04:20:32 UTC] APM: Found 109 total links to scan
+[15-Mar-2026 04:20:32 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[15-Mar-2026 04:20:32 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[15-Mar-2026 04:20:32 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[15-Mar-2026 04:20:32 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[15-Mar-2026 04:20:32 UTC] APM: Searching entire HTML for ANY .pdf references...
+[15-Mar-2026 04:20:32 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[15-Mar-2026 04:20:32 UTC] APM: ✗ No JavaScript config found with any pattern
+[15-Mar-2026 04:20:32 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[15-Mar-2026 04:20:32 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[15-Mar-2026 04:20:32 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[15-Mar-2026 04:20:32 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[15-Mar-2026 04:20:32 UTC] APM: Regex search also found no PDFs
+[15-Mar-2026 04:20:32 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: TOTAL PDFs FOUND: 0
+[15-Mar-2026 04:20:32 UTC] APM: ===============================================
+[15-Mar-2026 04:20:32 UTC] APM: PDF extraction complete - Found 0 PDFs
+[15-Mar-2026 04:20:32 UTC] APM: Added 10% GST to price: $500.00 → $550.00
+[15-Mar-2026 04:20:32 UTC] APM: Setting Auto Product Sync fields for product ID: 12704
+[15-Mar-2026 04:20:32 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:20:32 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:20:32 UTC] APM: Setting Auto Product Sync fields for product ID: 12705
+[15-Mar-2026 04:20:32 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qga25-log-grab/
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[15-Mar-2026 04:20:32 UTC] APM: ✓ Set _aps_add_gst: yes
+[15-Mar-2026 04:20:32 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[15-Mar-2026 04:20:32 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[15-Mar-2026 04:20:32 UTC] Quote Orders: WebP created successfully: qga25_main_1-2.webp
+[15-Mar-2026 04:20:32 UTC] Quote Orders: WebP created successfully: qga25_main_1-1-1.webp
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-2.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Original file deleted: qga25_main_1.png
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Email JPG created successfully: qga25_main_1-1-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Original file deleted: qga25_main_1-1.png
+[15-Mar-2026 04:20:32 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:34 UTC] Quote Orders: WebP created successfully: qga25_main_4-1.webp
+[15-Mar-2026 04:20:34 UTC] Quote Orders: WebP created successfully: qga25_main_4-1.webp
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Email JPG created successfully: qga25_main_4-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Original file deleted: qga25_main_4.png
+[15-Mar-2026 04:20:34 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:35 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext-2.webp
+[15-Mar-2026 04:20:35 UTC] Quote Orders: WebP created successfully: qga25-eu_main_5_wtext-1-1.webp
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-1-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext-1.png
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_5_wtext-2.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Original file deleted: qga25-eu_main_5_wtext.png
+[15-Mar-2026 04:20:35 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:36 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext-1.webp
+[15-Mar-2026 04:20:36 UTC] Quote Orders: WebP created successfully: qga25-eu_main_6_wtext-1-1.webp
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-2.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext.png
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Email JPG created successfully: qga25-eu_main_6_wtext-1-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Original file deleted: qga25-eu_main_6_wtext-1.png
+[15-Mar-2026 04:20:36 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[15-Mar-2026 04:20:37 UTC] Quote Orders: WebP created successfully: qga25_main_in-use-1.webp
+[15-Mar-2026 04:20:37 UTC] Quote Orders: Email JPG created successfully: qga25_main_in-use-1.jpg (75% quality, max 150x150)
+[15-Mar-2026 04:20:37 UTC] Quote Orders: Original file deleted: qga25_main_in-use-1.png
+[15-Mar-2026 04:20:37 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS

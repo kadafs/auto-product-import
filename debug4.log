@@ -1,0 +1,160 @@
+[16-Mar-2026 21:36:13 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:13 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:15 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:15 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: Detected domain: www.eastwesteng.com.au
+[16-Mar-2026 21:36:15 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[16-Mar-2026 21:36:15 UTC] APM: Looking for SKU in standard WooCommerce elements
+[16-Mar-2026 21:36:15 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: Final SKU value: QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: ===============================================
+[16-Mar-2026 21:36:15 UTC] APM: SKU extraction complete - SKU: QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: Starting SKU extraction from URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:15 UTC] APM: ========== SKU EXTRACTION START (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: Detected domain: www.eastwesteng.com.au
+[16-Mar-2026 21:36:15 UTC] APM: Using eastwesteng.com.au WooCommerce extraction method
+[16-Mar-2026 21:36:15 UTC] APM: Looking for SKU in standard WooCommerce elements
+[16-Mar-2026 21:36:15 UTC] APM: ✓ Found SKU via selector '//span[contains(@class, "sku")]': QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: ========== SKU EXTRACTION COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: Final SKU value: QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: ===============================================
+[16-Mar-2026 21:36:15 UTC] APM: SKU extraction complete - SKU: QBH-01_Main
+[16-Mar-2026 21:36:15 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:15 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: HTML content length: 154155 bytes
+[16-Mar-2026 21:36:15 UTC] APM: Found 100 total links to scan
+[16-Mar-2026 21:36:15 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[16-Mar-2026 21:36:15 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[16-Mar-2026 21:36:15 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[16-Mar-2026 21:36:15 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[16-Mar-2026 21:36:15 UTC] APM: Searching entire HTML for ANY .pdf references...
+[16-Mar-2026 21:36:15 UTC] APM: Starting PDF extraction from URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:15 UTC] APM: ========== PDF EXTRACTION START (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: HTML content length: 154155 bytes
+[16-Mar-2026 21:36:15 UTC] APM: Found 100 total links to scan
+[16-Mar-2026 21:36:15 UTC] APM: XPath direct search found 0 links containing '.pdf' in href
+[16-Mar-2026 21:36:15 UTC] APM: PDF links not in DOM - trying regex search on raw HTML...
+[16-Mar-2026 21:36:15 UTC] APM: === STARTING extract_pdfs_from_raw_html ===
+[16-Mar-2026 21:36:15 UTC] APM: === STARTING find_visible_pdf_filenames ===
+[16-Mar-2026 21:36:15 UTC] APM: Searching entire HTML for ANY .pdf references...
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No JavaScript config found with any pattern
+[16-Mar-2026 21:36:15 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[16-Mar-2026 21:36:15 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[16-Mar-2026 21:36:15 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[16-Mar-2026 21:36:15 UTC] APM: Regex search also found no PDFs
+[16-Mar-2026 21:36:15 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: TOTAL PDFs FOUND: 0
+[16-Mar-2026 21:36:15 UTC] APM: ===============================================
+[16-Mar-2026 21:36:15 UTC] APM: PDF extraction complete - Found 0 PDFs
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No PDF filenames found ANYWHERE in HTML
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No JavaScript config found with any pattern
+[16-Mar-2026 21:36:15 UTC] APM: Trying HTML fallback for tigren-product-attachments section...
+[16-Mar-2026 21:36:15 UTC] APM: ✗ tigren-product-attachments section not found in HTML
+[16-Mar-2026 21:36:15 UTC] APM: === END find_visible_pdf_filenames - returning 0 filenames ===
+[16-Mar-2026 21:36:15 UTC] APM: ✗ No visible PDF filenames found - CANNOT PROCEED
+[16-Mar-2026 21:36:15 UTC] APM: Regex search also found no PDFs
+[16-Mar-2026 21:36:15 UTC] APM: ========== PDF EXTRACTION COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:15 UTC] APM: TOTAL PDFs FOUND: 0
+[16-Mar-2026 21:36:15 UTC] APM: ===============================================
+[16-Mar-2026 21:36:15 UTC] APM: PDF extraction complete - Found 0 PDFs
+[16-Mar-2026 21:36:35 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:35 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:36 UTC] APM: eastwesteng price set with 15% margin: $181.50 → $208.73
+[16-Mar-2026 21:36:37 UTC] APM: Domain category derivation — URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/ → category name: "eastwesteng"
+[16-Mar-2026 21:36:37 UTC] APM: WARNING — 'Uncategorised' product category not found. Cannot create domain category for URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:37 UTC] APM: Domain tag derivation — URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/ → tag name: "eastwesteng.com.au"
+[16-Mar-2026 21:36:37 UTC] APM: Setting Auto Product Sync fields for product ID: 12884
+[16-Mar-2026 21:36:37 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[16-Mar-2026 21:36:37 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:37 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[16-Mar-2026 21:36:37 UTC] APM: ✓ Set _aps_add_gst: yes
+[16-Mar-2026 21:36:37 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:37 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[16-Mar-2026 21:36:37 UTC] APM: Applied eastwesteng.com.au defaults for product ID: 12884 (Add GST: yes, Add Margin: yes, Margin %: 15)
+[16-Mar-2026 21:36:37 UTC] Quote Orders: WebP created successfully: qbh-burder-hitch-plates_2.webp
+[16-Mar-2026 21:36:37 UTC] Quote Orders: Email JPG created successfully: qbh-burder-hitch-plates_2.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:37 UTC] Quote Orders: Original file deleted: qbh-burder-hitch-plates_2.png
+[16-Mar-2026 21:36:37 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:38 UTC] Quote Orders: WebP created successfully: qbh-burder-hitch-plates_2-300x300-1.webp
+[16-Mar-2026 21:36:38 UTC] Quote Orders: Email JPG created successfully: qbh-burder-hitch-plates_2-300x300-1.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:38 UTC] Quote Orders: Original file deleted: qbh-burder-hitch-plates_2-300x300-1.png
+[16-Mar-2026 21:36:38 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:39 UTC] Quote Orders: WebP created successfully: Email.webp
+[16-Mar-2026 21:36:39 UTC] Quote Orders: Email JPG created successfully: Email.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:39 UTC] Quote Orders: Original file deleted: Email.png
+[16-Mar-2026 21:36:39 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:40 UTC] APM: eastwesteng price set with 15% margin: $192.50 → $221.38
+[16-Mar-2026 21:36:40 UTC] APM: Domain category derivation — URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/ → category name: "eastwesteng"
+[16-Mar-2026 21:36:40 UTC] APM: WARNING — 'Uncategorised' product category not found. Cannot create domain category for URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:40 UTC] APM: Domain tag derivation — URL: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/ → tag name: "eastwesteng.com.au"
+[16-Mar-2026 21:36:40 UTC] APM: Setting Auto Product Sync fields for product ID: 12888
+[16-Mar-2026 21:36:40 UTC] APM: ========== SYNC FIELD SETUP START (DETAILED) ==========
+[16-Mar-2026 21:36:40 UTC] APM: ✓ Set _aps_url: https://www.eastwesteng.com.au/product/qbh-burder-hitch-plates-weld-on/
+[16-Mar-2026 21:36:40 UTC] APM: ✓ Set _aps_enable_sync: yes (enabled)
+[16-Mar-2026 21:36:40 UTC] APM: ✓ Set _aps_add_gst: yes
+[16-Mar-2026 21:36:40 UTC] APM: ========== SYNC FIELD SETUP COMPLETE (DETAILED) ==========
+[16-Mar-2026 21:36:40 UTC] APM: Auto Product Sync fields set - URL saved, Sync enabled, Add GST: yes
+[16-Mar-2026 21:36:40 UTC] APM: Applied eastwesteng.com.au defaults for product ID: 12888 (Add GST: yes, Add Margin: yes, Margin %: 15)
+[16-Mar-2026 21:36:40 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:41 UTC] Quote Orders: WebP created successfully: qbh-burder-hitch-plates_2-1.webp
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Email JPG created successfully: qbh-burder-hitch-plates_2-1.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Original file deleted: qbh-burder-hitch-plates_2.png
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:41 UTC] Quote Orders: WebP created successfully: qbh-burder-hitch-plates_2-300x300-1-1.webp
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Email JPG created successfully: qbh-burder-hitch-plates_2-300x300-1-1.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Original file deleted: qbh-burder-hitch-plates_2-300x300-1.png
+[16-Mar-2026 21:36:41 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:42 UTC] Quote Orders: WebP created successfully: Email-1.webp
+[16-Mar-2026 21:36:42 UTC] Quote Orders: Email JPG created successfully: Email-1.jpg (75% quality, max 150x150)
+[16-Mar-2026 21:36:42 UTC] Quote Orders: Original file deleted: Email.png
+[16-Mar-2026 21:36:42 UTC] Quote Orders: Image conversion complete - WebP: SUCCESS, Email JPG: SUCCESS
+[16-Mar-2026 21:36:46 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:49 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:53 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:55 UTC] APB: Admin hook: post.php
+[16-Mar-2026 21:36:55 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:36:57 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:36:59 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:01 UTC] APB: Admin hook: post.php
+[16-Mar-2026 21:37:01 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:37:03 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:05 UTC] APB: Admin hook: toplevel_page_apm-auto-product-import
+[16-Mar-2026 21:37:05 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:37:05 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:06 UTC] APM Import Queue: Sync complete. Added: 1, Removed: 0
+[16-Mar-2026 21:37:07 UTC] APB: Admin hook: post.php
+[16-Mar-2026 21:37:07 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:37:15 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:16 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:18 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:22 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:23 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:24 UTC] APB: Admin hook: post.php
+[16-Mar-2026 21:37:24 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:37:27 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:37:35 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:09 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:10 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:20 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:30 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:31 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:33 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:42 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:43 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:38:53 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:39:03 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:39:53 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:03 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:03 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:05 UTC] APB: Admin hook: edit-tags.php
+[16-Mar-2026 21:40:05 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:40:09 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:24 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:26 UTC] APB: Admin hook: term.php
+[16-Mar-2026 21:40:26 UTC] APB: Not loading assets, wrong page
+[16-Mar-2026 21:40:30 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:40:43 UTC] [APB AJAX] Constructor called - Handler initialized
+[16-Mar-2026 21:41:11 UTC] [APB AJAX] Constructor called - Handler initialized

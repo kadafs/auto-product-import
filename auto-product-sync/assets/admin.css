@@ -1,0 +1,509 @@
+/* Auto Product Sync Admin Styles */
+
+.aps-admin-container {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.aps-settings-section,
+.aps-products-section,
+.aps-log-section {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.aps-settings-section h2,
+.aps-products-section h2,
+.aps-log-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcdcde;
+}
+
+/* Actions bar */
+.aps-actions {
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.aps-actions .button {
+    margin-right: 10px;
+}
+
+/* Status indicators */
+.aps-status {
+    margin-left: 10px;
+    font-weight: 600;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.aps-status.aps-success {
+    color: #00a32a;
+}
+
+.aps-status.aps-error {
+    color: #d63638;
+}
+
+.aps-status.aps-running {
+    color: #0073aa;
+}
+
+.aps-status-enabled {
+    color: #00a32a;
+    font-weight: 600;
+}
+
+.aps-status-disabled {
+    color: #787c82;
+}
+
+.aps-error-date {
+    color: #d63638;
+    font-weight: 600;
+}
+
+/* Table styles */
+.aps-table-container {
+    overflow-x: auto;
+}
+
+#aps-products-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#aps-products-table th {
+    text-align: left;
+    padding: 12px 8px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+#aps-products-table th.aps-sortable {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+#aps-products-table th.aps-sortable:hover {
+    background: #f0f0f1;
+}
+
+#aps-products-table th.asc .sort-indicator::after {
+    content: " ↑";
+    color: #0073aa;
+}
+
+#aps-products-table th.desc .sort-indicator::after {
+    content: " ↓";
+    color: #0073aa;
+}
+
+.sort-indicator {
+    opacity: 0.5;
+    font-size: 12px;
+    transition: opacity 0.2s;
+}
+
+#aps-products-table th.aps-sortable:hover .sort-indicator,
+#aps-products-table th.asc .sort-indicator,
+#aps-products-table th.desc .sort-indicator {
+    opacity: 1;
+}
+
+#aps-products-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #f0f0f1;
+    vertical-align: top;
+}
+
+#aps-products-table tr:hover {
+    background: #f6f7f7;
+}
+
+/* Category column styles */
+.product-category .category-item {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    margin: 1px 0;
+    border-radius: 3px;
+    font-size: 11px;
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-category .no-category {
+    color: #646970;
+    font-style: italic;
+}
+
+/* Single sync progress styles */
+.aps-single-sync-status {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.aps-single-sync-status.aps-success {
+    color: #00a32a;
+}
+
+.aps-single-sync-status.aps-error {
+    color: #d63638;
+}
+
+.aps-single-sync-error {
+    color: #d63638;
+    font-size: 11px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+/* Log status styles */
+.aps-log-status-success {
+    color: #00a32a;
+    background: #d5e7d3;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.aps-log-status-error {
+    color: #d63638;
+    background: #f5d5d6;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.aps-log-status-info {
+    color: #0073aa;
+    background: #d5e7f0;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Product tab styles */
+#aps_sync_product_data .options_group h3 {
+    margin: 20px 0 10px 0;
+    padding: 10px 0 5px 0;
+    border-top: 1px solid #ddd;
+}
+
+#aps_sync_product_data .options_group:first-child h3 {
+    border-top: none;
+    margin-top: 10px;
+}
+
+/* Button styles */
+.aps-sync-single {
+    background: #0073aa !important;
+    border-color: #0073aa !important;
+    color: #fff !important;
+}
+
+.aps-sync-single:hover {
+    background: #005a87 !important;
+    border-color: #005a87 !important;
+}
+
+.aps-sync-single:disabled {
+    background: #787c82 !important;
+    border-color: #787c82 !important;
+    cursor: not-allowed;
+}
+
+/* Loading animation */
+.aps-loading {
+    position: relative;
+}
+
+.aps-loading::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0073aa;
+    border-radius: 50%;
+    animation: aps-spin 1s linear infinite;
+}
+
+@keyframes aps-spin {
+    0% { transform: translateY(-50%) rotate(0deg); }
+    100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+/* Tooltip styles */
+.aps-tooltip {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 200px;
+    z-index: 999999;
+    word-wrap: break-word;
+}
+
+.aps-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: #000;
+}
+
+/* Responsive design */
+@media screen and (max-width: 782px) {
+    .aps-admin-container {
+        margin: 10px 0;
+    }
+    
+    .aps-settings-section,
+    .aps-products-section,
+    .aps-log-section {
+        padding: 15px;
+    }
+    
+    .aps-actions {
+        padding: 10px 0;
+    }
+    
+    .aps-actions .button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+        text-align: center;
+    }
+    
+    #aps-products-table {
+        font-size: 12px;
+    }
+    
+    #aps-products-table th,
+    #aps-products-table td {
+        padding: 8px 4px;
+    }
+    
+    .sort-indicator {
+        display: none;
+    }
+    
+    /* Hide category column on mobile for space */
+    .product-category {
+        display: none;
+    }
+    
+    #aps-products-table th[data-column="category"] {
+        display: none;
+    }
+    
+    /* Stack sync status below button on mobile */
+    .aps-single-sync-status {
+        display: block;
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+    
+    .product-category .category-item {
+        display: block;
+        margin: 2px 0;
+    }
+}
+
+/* Form field enhancements */
+.form-table th {
+    width: 200px;
+}
+
+.form-table td input[type="time"],
+.form-table td input[type="email"] {
+    width: 200px;
+}
+
+.form-table td select {
+    width: 200px;
+}
+
+/* WordPress admin notice styles integration */
+.notice.aps-notice {
+    border-left-color: #0073aa;
+}
+
+.notice.aps-notice.notice-success {
+    border-left-color: #00a32a;
+}
+
+.notice.aps-notice.notice-error {
+    border-left-color: #d63638;
+}
+
+/* Product data tab specific styles */
+.woocommerce_options_panel .aps-status {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Sync progress indicator */
+.aps-progress {
+    background: #f0f0f1;
+    border-radius: 3px;
+    height: 24px;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #c3c4c7;
+}
+
+.aps-progress-bar {
+    background: linear-gradient(90deg, #0073aa, #005a87);
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+    position: relative;
+}
+
+.aps-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 24px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.aps-progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, 
+        rgba(255,255,255,0.1) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255,255,255,0.1) 50%, 
+        rgba(255,255,255,0.1) 75%, 
+        transparent 75%);
+    background-size: 20px 20px;
+    animation: aps-progress-animation 1s linear infinite;
+}
+
+@keyframes aps-progress-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 20px 0; }
+}
+
+/* Status and error display improvements */
+.aps-last-status {
+    font-size: 11px;
+    color: #646970;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.aps-error-status {
+    color: #d63638 !important;
+    font-weight: 600;
+}
+
+.aps-retry-count {
+    font-weight: 600;
+    color: #d63638;
+}
+
+.aps-retry-count:before {
+    content: "Retry: ";
+    font-weight: normal;
+    color: #646970;
+}
+
+/* Empty state styles */
+.aps-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #646970;
+}
+
+.aps-empty-state .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+/* Accessibility improvements */
+.aps-sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Focus styles for better accessibility */
+.aps-sync-single:focus,
+#aps-sync-all:focus,
+#aps-download-prices:focus {
+    box-shadow: 0 0 0 2px #0073aa;
+    outline: none;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .aps-status.aps-success {
+        color: #004d00;
+        background: #e6ffe6;
+    }
+    
+    .aps-status.aps-error {
+        color: #800000;
+        background: #ffe6e6;
+    }
+    
+    .aps-status.aps-running {
+        color: #000080;
+        background: #e6f3ff;
+    }
+}
